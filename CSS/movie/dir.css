@@ -1,0 +1,26 @@
+.dir_name{
+    font-size: 23px;
+    font-weight: 600; 
+    color: white;
+}
+.custom_padding{
+    padding-top: 80px !important;
+}
+
+.custom_link{
+    color: rgba(255, 255, 255, 0.821) !important;
+    font-size: 18px;
+    font-weight: 700 ;
+}
+
+.custom_link:hover{
+    color: rgba(255, 0, 0, 0.729) !important;
+    font-weight: 700 ;
+}
+
+
+@media (max-width: 444px)  {
+    .dir_name{
+        font-size: 14px;
+    }
+}

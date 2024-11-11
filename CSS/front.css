@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 230px; 
+    margin-left: 10px; 
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.front-main{
+    height: 100vh;
+    width: 100vw;
+}
+.front-left{
+    background-image: url("../MEDIA//login/netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.front-right{
+    background-image: url("../MEDIA/frontpage/another.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mov-card{
+    background-color: rgba(0, 0, 0, 0.714) !important   ;
+    color: rgba(255, 0, 0, 0.608);
+}
+.ex-movie{
+    border-radius: 20px !important; 
+    font-size: 20px !important; 
+    background-color: rgba(0, 0, 255, 0.728) !important; 
+    color: rgba(255, 255, 255, 0.835) !important;
+}
+
+.mus-card{
+    background-color: rgba(0, 0, 0, 0.816) !important;
+    color:green;
+}
+.ex-movie:hover{
+    background-color: rgba(0, 0, 255, 0.666) !important;
+}
+
+.mus-tittle,.mov-tittle{
+    font-size: 50px; 
+    color: rgba(255, 255, 255, 0.571);
+}
+
+
+
+@media (max-width: 580px) {
+    .mus-card,.mov-card{
+        margin: 40px
+    }
+    .mus-tittle,.mov-tittle{
+        font-size: 40px;
+    }
+    .mov-des,.mus-des{
+        font-size: 17px !important;
+    }
+    .fe{
+        font-size: 15px;
+    }
+    
+}
+
+
+
+@media (max-width: 400px) {
+    .mus-card,.mov-card{
+        margin: 20px
+    }
+    .mus-tittle,.mov-tittle{
+        font-size: 25px;
+    }
+    .feature{
+        display: none;
+    }
+
+    .ex-movie{
+        font-size: 15px !important; 
+        background-color: rgba(0, 0, 255, 0.728) !important; 
+    }
+}
